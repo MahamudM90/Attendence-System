@@ -10,8 +10,20 @@ const AttendenceInfo = () => {
             <div className='attendence mx-auto'>
             <h5 className='information'>Attendance information</h5>
             </div>
-            <div>
-                
+            <div className='flex justify-evenly items-center py-16'>
+                <div>
+                    <h5>Date</h5>
+                    <p>lol</p>
+                    <p>lala</p>
+                </div>
+                <div>
+                    <h5>name</h5>
+                    <p>tar</p>
+                </div>
+                <div>
+                    <h5>Attendence</h5>
+                    <p>tor</p>
+                </div>
             </div>
         </div>
     );
