@@ -1,0 +1,67 @@
+
+.image-part{
+    height: 437px;
+    width: 612px;
+
+}
+
+.signup {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(0, 0, 0, 1);
+    
+    
+    }
+
+    
+    .main {
+        height: 600px;
+        width: 516px;
+       background: rgba(255, 255, 255, 1);
+       padding: 60px;
+     
+    
+    
+    }
+
+    .first {
+        color: rgba(164, 164, 164, 1);
+       
+
+
+    }
+    
+    .btn{
+     height: 49px;
+    width: 142px;
+    background: rgba(22, 120, 203, 1);
+    color:rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgba(22, 120, 203, 1);
+    border-radius: 15px;
+    padding: 15px 20px 15px 20px;
+    
+    }
+    
+    .btn:hover{
+        background: rgba(255, 255, 255, 1);
+        color:rgba(22, 120, 203, 1);
+        border: 1px solid rgba(22, 120, 203, 1);
+        border-radius: 15px;
+        padding: 15px 20px 15px 20px;
+    
+    }
+    .account {
+        color:rgba(126, 126, 126, 1);
+        font-size: 12px;
+    
+    }
+    .login{
+        color:rgba(22, 120, 203, 1);
+
+    }
