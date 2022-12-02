@@ -33,14 +33,13 @@
 
     }
     
-    .btn-second{
+    .btn-login{
      height: 49px;
-    width: 142px;
+    width: 100px;
     background: rgba(22, 120, 203, 1);
     color:rgba(255, 255, 255, 1);
     text-align: center;
     font-size: 16px;
-    margin-right: 80px;
     font-weight: 500;
     border: 1px solid rgba(22, 120, 203, 1);
     border-radius: 15px;
@@ -48,7 +47,7 @@
     
     }
     
-    .btn-second:hover{
+    .btn-login:hover{
         background: rgba(255, 255, 255, 1);
         color:rgba(22, 120, 203, 1);
         border: 1px solid rgba(22, 120, 203, 1);
@@ -63,16 +62,5 @@
     }
     .login{
         color:rgba(22, 120, 203, 1);
-
-    }
-    .back{
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 15px;
-        letter-spacing: 0em;
-        margin-right: 80px;
-        color: rgba(118, 118, 118, 1);
-
-        
 
     }

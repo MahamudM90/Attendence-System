@@ -20,7 +20,7 @@ const FirstPage = () => {
                 <input type="text" name="first-name"  className='border-b-2 first w-full mt-10 outline-none' placeholder='Write Last Name'/>
                 </form>
               <Link to='/second'>  <button className='btn drop-shadow-2xl mt-16'>Next Step -></button></Link>
-              <h1 className='text-right mt-36 account'>Already have an account? <Link to='/second'><span className='login'>LOGIN HERE!</span></Link> </h1>
+              <h1 className='text-right mt-36 account'>Already have an account? <Link to='/login'><span className='login'>LOGIN HERE!</span></Link> </h1>
             </div>
             
             </div>

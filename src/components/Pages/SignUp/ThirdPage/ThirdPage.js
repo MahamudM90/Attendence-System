@@ -2,8 +2,8 @@ import React from 'react';
 import logo from '../../../../assets/images/logo.svg';
 import main from '../../../../assets/images/main.svg';
 import { Link } from 'react-router-dom';
-import './SecondPage.css'
-const SecondPage = () => {
+import './ThirdPage.css'
+const ThirdPage = () => {
     return (
         <div>
              <div className='logo-part p-12'>
@@ -16,10 +16,10 @@ const SecondPage = () => {
             <div className='main drop-shadow-lg'>
                 <h5 className='signup'>SignUp Form</h5>
                 <form>
-                <input type="text" name="first-name"  className='border-b-2 first w-full mt-20 outline-none' placeholder='Write First Name'/>
-                <input type="text" name="first-name"  className='border-b-2 first w-full mt-10 outline-none' placeholder='Write Last Name'/>
+                <input type="text" name="first-name"  className='border-b-2 first w-full my-24 outline-none' placeholder='Write Password'/>
+                
                 </form>
-                <span className='back'> <Link to='/'>Back</Link></span>  <Link to='/third'>  <button className='btn-second drop-shadow-2xl mt-16'>Next Step -></button></Link>
+                <span className='back'> <Link to='/second'>Back</Link></span>  <Link to='/'>  <button className='btn-third drop-shadow-2xl my-20'>Sign Up</button></Link>
               
             </div>
             
@@ -29,4 +29,4 @@ const SecondPage = () => {
     );
 };
 
-export default SecondPage;
+export default ThirdPage;
